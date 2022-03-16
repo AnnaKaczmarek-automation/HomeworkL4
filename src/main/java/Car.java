@@ -50,7 +50,7 @@ public class Car {
         return filteredCarList;
     }
 
-    public static void displayCarsMeetingTheConditions(ArrayList<Car> carList){
+    public static void displayCarsThatMeetTheRequirements(ArrayList<Car> carList){
 
         for (Car car : carList){
             System.out.println(car.getProducent().getModel()+","+car.getProducent().getType()+" has meet the requirements and"+" "+"is available on"+" "+car.getMarket().getName()+" market. Car can be ordered in countries displayed on list below:");
